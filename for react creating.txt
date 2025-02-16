@@ -1,0 +1,11 @@
+# Frontend Development with React & CSS Frameworks
+
+This repository contains my learning progress and projects as I dive into **frontend development** using **React** and various **CSS frameworks**. 
+
+## 🚀 About Me
+I'm currently on a journey to master frontend development. I'm focusing on **React** for building dynamic user interfaces and exploring different **CSS frameworks** to enhance the styling of my projects.
+
+## 📚 Learning Goals
+- Learn the fundamentals of **React** and build interactive user interfaces.
+- Explore various **CSS frameworks** like **Bootstrap**, **Tailwind CSS**, and **Material UI** to style my web apps.
+- Understand **state management**, **component architecture**, and **React hooks**.
