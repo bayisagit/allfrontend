@@ -3,7 +3,6 @@ import './App.css'
 
 function App() {
 	const [count, setCount] = useState(0)
-
 	return (
 		<div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-purple-500">
 			<div className="bg-white p-10 rounded-xl shadow-2xl text-center max-w-lg w-full transform transition-all hover:shadow-3xl">
