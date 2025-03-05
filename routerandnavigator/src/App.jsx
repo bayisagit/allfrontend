@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import About from "./pages/aboutus";
+import Home from "./pages/Home";
+import About from "./pages/Aboutus";
 import Contact from "./pages/contact";
 import NotFound from "./pages/NotFound";  {/* Corrected import here */}
 import Navbar from "./pages/navba";
+import UserProfile from "./pages/userprofile";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/user" element={<UserProfile/>} />
           <Route path="*" element={<NotFound />} />  {/* Handles undefined routes */}
         </Routes>
       </div>

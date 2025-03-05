@@ -5,7 +5,8 @@ function Navbar(){
         <nav className="bg-blue-700 flex mb-10 justify-evenly text-white">
             <Link to = "/">Home</Link>
             <Link to = "/contact">Contact</Link>
-            <Link to = "/about">About Us</Link>        
+            <Link to = "/about">About Us</Link>  
+            <Link to= "/user">User Profile</Link>   
         </nav>
     );
 }
