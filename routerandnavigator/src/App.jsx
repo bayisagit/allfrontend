@@ -4,12 +4,13 @@ import Home from "./pages/home";
 import About from "./pages/aboutus";
 import Contact from "./pages/contact";
 import NotFound from "./pages/NotFound";  {/* Corrected import here */}
+import Navbar from "./pages/navba";
 
 function App() {
   return (
     <Router>
-      <div className="bg-amber-50">
-        <h1>Simple React App</h1>
+      <div>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
