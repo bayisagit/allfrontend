@@ -1,8 +1,21 @@
-# React + Vite
+React Router and Navigation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that demonstrates React Router for navigation. It allows users to navigate between different pages without reloading the app.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Uses react-router-dom for seamless routing.
+
+Routes and Route are used to define different pages.
+
+Link enables smooth navigation between pages.
+
+useNavigate provides programmatic navigation.
+
+Installation:
+
+Install dependencies: npm install
+
+Start the app: npm start
+
+Enjoy navigating through the app! 🚀
