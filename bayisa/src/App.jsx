@@ -1,14 +1,23 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import About from "./pages/aboutus";
+import Contact from "./pages/contact";
+import NotFound from "./pages/NotFound";  {/* Corrected import here */}
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-green-600">Hello, Bayisa! 🚀</h1>
-      <p className="text-lg text-gray-700 mt-2">This is a simple React + Tailwind CSS setup.</p>
-      <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700">
-        Click Me
-      </button>
-    </div>
+    <Router>
+      <div className="bg-amber-50">
+        <h1>Simple React App</h1>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />  {/* Handles undefined routes */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

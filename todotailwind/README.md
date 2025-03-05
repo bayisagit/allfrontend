@@ -1,8 +1,26 @@
-# React + Vite
+Task Manager Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
 
-Currently, two official plugins are available:
+This is a simple Task Manager application built using React. Users can add, edit, delete, and mark tasks as completed. Tasks have properties such as title, description, due date, and completion status. Filtering and sorting options allow better task management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+
+Add new tasks with a title, description, and due date.
+
+Mark tasks as completed or pending.
+
+Delete tasks when no longer needed.
+
+Filter tasks based on completion status (All, Completed, Pending).
+
+Sort tasks by due date.
+
+Automatically adds tasks when pressing 'Enter' in the input field.
+
+
+Technologies Used
+
+React.js
+
+Tailwind CSS
