@@ -1,6 +1,6 @@
 # 🌐 All Frontend – My Full Stack Web Development Journey
 
-Welcome to **All Frontend**, a personal and practical collection of frontend-to-fullstack projects. This repository tracks my progress from building static sites with HTML & CSS to dynamic web apps using React, Express.js, and real databases like MySQL and PostgreSQL.
+Welcome to **All Frontend**, a personal and practical collection of frontend-to-fullstack projects. This repository tracks my progress from building static sites with HTML & CSS to dynamic web apps using React, and real databases like MySQL and PostgreSQL.
 
 ---
 
@@ -12,7 +12,7 @@ This repo isn’t just a practice sandbox — it includes real mini-projects and
 - **Frontend Basics**: HTML, CSS, JavaScript
 - **Component Libraries**: Tailwind CSS, Bootstrap
 - **Frameworks**: React, Next.js
-- **Backend**: Express.js (Node.js)
+- **Backend**: api integrations
 - **Databases**: MySQL, PostgreSQL
 - **Other Tools**: Git, API integration, responsive design, form validation
 
