@@ -54,5 +54,5 @@ This repo isn’t just a practice sandbox — it includes real mini-projects and
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/yourusername/allfrontend.git
+git clone https://github.com/bayisagit/allfrontend.git
 cd allfrontend
