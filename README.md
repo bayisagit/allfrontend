@@ -1,6 +1,6 @@
-# 🌐 All Frontend – My Full Stack Web Development Journey
+# 🌐 allfrontend – My Web Development Journey
 
-Welcome to **All Frontend**, a personal and practical collection of frontend-to-fullstack projects. This repository tracks my progress from building static sites with HTML & CSS to dynamic web apps using React, and real databases like MySQL and PostgreSQL.
+Welcome to **Allfrontend**, a personal and practical collection of frontend-to-fullstack projects. This repository tracks my progress from building static sites with HTML & CSS to dynamic web apps using React, and real databases like MySQL and PostgreSQL.
 
 ---
 
@@ -54,5 +54,5 @@ This repo isn’t just a practice sandbox — it includes real mini-projects and
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/yourusername/all-frontend.git
-cd all-frontend
+git clone https://github.com/yourusername/allfrontend.git
+cd allfrontend
